@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:url("istockphoto-1089334458-2048x2048.webp");
+    background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.8); 
+
+   
+
+  }
+  #a1{
+    margin-top: 80px ;
+    font-size: 45px;
+  }
+  h1{
+    margin:80px 0px;
+    font-family: Roboto Slab;
+    font-size: 2.8rem;
+
+  }
+  
+  #input-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 150px;
+    height:50px;
+  }
+  
+  #input-field {
+    padding:5px;
+        width:300px;
+        border:3px solid rgb(28, 44, 44);
+        border-radius: 15px;
+        font-size: 15px;
+        font-family: Roboto Slab;
+        margin: 5px 20px;
+  }
+  #input-field:focus, #input-field:hover {
+    background: #fff;
+    border: 1px solid #666;
+  }
+  #input-field:valid {
+    border-color: black;
+  }
+  
+  #input-field:invalid {
+    border-color: red;
+  }
+  
+  #input-field::placeholder {
+    color: #999;
+  }
+  
+  #unit-select {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: Roboto Slab;
+  }
+  .btn{
+    margin:0px 9px;
+    color:white;
+    background:black;
+    padding:4px 14px;
+    border:2px solid grey;
+    border-radius: 7px;
+    font-size: 15px;
+    height: 50px;
+ }
+ 
+ .btn:hover{
+     color: rgb(228, 170, 54);
+ }
+  
+  #convert-button {
+    display:block;
+    width:8%;
+     margin:auto;
+     height: 40px;
+  }
+  
+  #output-container {
+    margin-top: 20px;
+    font-family: Roboto Slab;
+  }
+  #result{
+    text-decoration:bold;
+  }
+  #output {
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 5px auto;
+  font-size: 16px;
+  font-weight: bold;
+  width:8%;
+  height: 10px;
+  }
+  
